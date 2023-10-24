@@ -1,34 +1,45 @@
-.title{
-background-image: url(https://w.forfun.com/fetch/45/45153837437416f7accc62cfb09866be.jpeg);
+.title {
+    background-color: gray;
     background-size: cover;
     background-repeat: no-repeat;
-     
+
 }
 
 body {
-    background-image: url(https://www.esperanzadiaxdia.com.ar/wp-content/uploads/2022/12/Festejo-Argentina-Campeon-Mundial-1170x622.jpg); /* Cambia 'ruta/de/la/imagen.jpg' con la ruta de tu imagen */
-    background-size: cover; /* Ajusta el tamaño de la imagen para que cubra todo el fondo */
-    background-repeat: no-repeat; /* Evita que la imagen se repita */
-    font-family: Arial, Helvetica, sans-serif ;
+    background-image: url(https://www.esperanzadiaxdia.com.ar/wp-content/uploads/2022/12/Festejo-Argentina-Campeon-Mundial-1170x622.jpg);
+    
+    background-size: cover;
+    
+    background-repeat: no-repeat;
+    
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 18px;
-    
+
 }
 
-h1{
+.logo img {
+    width: 70px;
+    height: auto;
+}
+
+h1 h2 {
+    color: white;
+    font-size: 45px;
     text-align: center
 }
-.conteiner{
+
+.conteiner {
 
     margin: 0 auto;
     width: 70%;
     background-color: rgba(255, 255, 255, 50%);
-    
+
 }
 
 
-.parrafo{
-    max-width: 600px; 
+.parrafo {
+    max-width: 600px;
     margin: 0 auto;
 
 }
@@ -42,7 +53,7 @@ h1{
     width: 100%;
     height: 100%;
     overflow: auto;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0, 0, 0, 0.5);
     padding-top: 60px;
 }
 
@@ -50,20 +61,21 @@ h1{
     display: none;
 }
 
-a:hover{
+a:hover {
 
     color: yellow;
 }
 
 
-.videoEntrenamiento{
+.videoEntrenamiento {
     display: block;
-padding: 30px; ;
-margin: auto;
+    padding: 30px;
+    ;
+    margin: auto;
 
 }
 
-.imgct{
+.imgct {
 
     padding: 30px;
     width: 70%;
@@ -71,6 +83,34 @@ margin: auto;
 }
 
 
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0px;
+    padding-left: 0%;
+    padding-right: 0%;
+    font-weight: bold;
 
+}
+
+
+ul li {
+
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+
+}
+
+a:hover {
+
+    color: aqua;
+
+}
 
 
