@@ -80,14 +80,14 @@ a:hover {
 .videoEntrenamiento {
     display: block;
     padding: 30px;
-    ;
+    align-self: auto;
     margin: auto;
 
 }
 
 .imgct {
 
-    padding: 30px;
+    padding: 0Px;
     width: 70%;
     display: block;
 }
@@ -228,4 +228,15 @@ align-self: auto;
 margin: 0 auto;
     width: 70%;
 
+}
+.text{
+
+    padding: 0px 20px;
+
+}
+.videoEntrenamiento{
+
+
+    padding: 0px 20px;
+    margin: auto;
 }
