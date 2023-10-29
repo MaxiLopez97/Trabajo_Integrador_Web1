@@ -243,7 +243,6 @@ margin: 0 auto;
 
 
 .carrusel{
-
     height: 100vh;
     display: flex;
     align-items: center;
@@ -251,8 +250,7 @@ margin: 0 auto;
     padding: 20px;
  }
 
-.carrusel-items{  
-    background-color: white;  
+.carrusel-items{    
     display: flex;
     overflow-x: hidden;
     overflow-y: hidden;
