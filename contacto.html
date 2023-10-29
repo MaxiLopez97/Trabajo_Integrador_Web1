@@ -42,39 +42,45 @@
 
             </div>
 
-            <form action="#" autocomplete="off">
+            <form id="form1" onsubmit="return baby()">
                 <p>Nombre: </p>
-                <input type="text" name="Nombre" placeholder="Ingresa tu nombre" class="campo">
+                <input id="Fn" type="text" placeholder="Ingresa tu nombre" class="campo">
 
                 <p>Correo:</p>
-                <input type="email" name="email" placeholder="Ingrese su correo" class="campo">
+                <input id="Fc" type="email" placeholder="Ingrese su correo" class="campo">
 
                 <label for="opciones">¿De que continente eres?</label>
-                <select name="opciones" id="opciones" >
+                <select id="opciones">
                     <option disabled selected value="">Selecciona uno</option>
-                    <option value="opcion1">America del Sur</option>
-                    <option value="opcion1">America del Norte</option>
-                    <option value="opcion1">Africa</option>
-                    <option value="opcion1">Europa</option>
-                    <option value="opcion1">Asia</option>
-                    <option value="opcion1">Oceania</option>
-
-
+                    <option>America del Sur</option>
+                    <option>America del Norte</option>
+                    <option>Africa</option>
+                    <option>Europa</option>
+                    <option>Asia</option>
+                    <option>Oceania</option>
 
                 </select>
 
                 <p>Mensaje:</p>
-                <textarea name="mensaje" placeholder="Ingrese su mensaje"></textarea>
+                <textarea id="Fm" placeholder="Ingrese su mensaje"></textarea>
 
-                <input type="submit" name="Enviar" value="enviar mensaje" class="btn-enviar">
+                <div class="divboton">
+                    <button type="submit" class="btn-enviar"> Enviar Mensaje</button>
+                </div>
 
+                <div class="mostrarErrores">
 
+                </div>
+
+                
             </form>
+
         </div>
-
-
+        
     </main>
+    <script src="JavaScript.js">
 
+    </script>
 </body>
 
 </html>
