@@ -1,3 +1,5 @@
+
+//Validaciones 
 const btnEnviar = document.querySelector(".btn-enviar");
 const formul = document.querySelector("#form1");
 const errores1 = document.querySelector(".mostrarErrores");
@@ -78,7 +80,7 @@ const validar = () => {
     formul.removeChild(errores1);
 
     const parrafo = document.createElement("p");
-    parrafo.textContent = "Gracias pronto nos pondremos en contacto contigo al correo: " + correo + ", muchas gracias!";
+    parrafo.textContent = "Gracias " + nombre + " por tu mensaje, pronto nos pondremos en contacto contigo al correo: " + correo + ", muchas gracias!";
     parrafo.style.textAlign = "center";
     parrafo.style.backgroundColor = "black";
     parrafo.style.color = "white";

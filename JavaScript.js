@@ -100,7 +100,7 @@ let borrar = () => {
 
 }
 
-
+*/
 const carrusel = document.querySelector(".carrusel-items");
 let intervalo = null;
 let maxScrollLeft = carrusel.scrollWidth - carrusel.clientWidth;
