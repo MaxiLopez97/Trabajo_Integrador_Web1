@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>¡Somos Campeones!</title>
     <link rel="stylesheet" href="estilos.css">
-    <link rel="stylesheet" href="">
+
     <script src="https://kit.fontawesome.com/0bfd6f61e1.js" crossorigin="anonymous"></script>
 </head>
 
@@ -42,45 +42,58 @@
 
             </div>
 
-            <form id="form1" onsubmit="return baby()">
-                <p>Nombre: </p>
-                <input id="Fn" type="text" placeholder="Ingresa tu nombre" class="campo">
+            <div class="form">
+                <form id="form1" onsubmit="return validar()">
+                    <p>Nombre: </p>
+                    <input id="fN" type="text" placeholder="Ingresa tu nombre">
 
-                <p>Correo:</p>
-                <input id="Fc" type="email" placeholder="Ingrese su correo" class="campo">
+                    <p>Correo:</p>
+                    <input id="fC" type="text" placeholder="Ingrese su correo"><br>
 
-                <label for="opciones">¿De que continente eres?</label>
-                <select id="opciones">
-                    <option disabled selected value="">Selecciona uno</option>
-                    <option>America del Sur</option>
-                    <option>America del Norte</option>
-                    <option>Africa</option>
-                    <option>Europa</option>
-                    <option>Asia</option>
-                    <option>Oceania</option>
+                    <p>¿De que continente eres?</p>
+                    <select id="fOciones">
+                        <option disabled selected value="">Selecciona uno</option>
+                        <option>America del Sur</option>
+                        <option>America del Norte</option>
+                        <option>Africa</option>
+                        <option>Europa</option>
+                        <option>Asia</option>
+                        <option>Oceania</option>
+                    </select>
 
-                </select>
+                    <p>Mensaje:</p>
+                    <textarea id="fM" cols="30" rows="10" placeholder="Ingrese su mensaje"></textarea>
 
-                <p>Mensaje:</p>
-                <textarea id="Fm" placeholder="Ingrese su mensaje"></textarea>
+                    <div class="divBoton">
+                        <button type="submit" class="btn-enviar"> Enviar Mensaje</button>
+                    </div>
 
-                <div class="divboton">
-                    <button type="submit" class="btn-enviar"> Enviar Mensaje</button>
-                </div>
+                    <div class="mostrarErrores">
 
-                <div class="mostrarErrores">
+                    </div>
 
-                </div>
 
-                
-            </form>
+                </form>
+            </div>
+        </div>
+
+
+        <div class="carrusel2">
+            <button class="botonIz"> < </button>
+
+                    <img class="imgCar" width="600" height="500" src="Img/Carrousel/1.jpg" alt="">
+
+                    <button class="botonDe">></button>
 
         </div>
-        
+
+
     </main>
-    <script src="JavaScript.js">
+
+    <script src="caruselv2.js">
 
     </script>
+
 </body>
 
 </html>
